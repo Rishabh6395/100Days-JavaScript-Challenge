@@ -1,9 +1,22 @@
 // Write a function that takes a number as input and returns the sum of its digits.
 
-const sumOfDigits = (num) =>{
-    let arr = Array.from(String(num), Number)
-    console.log(arr)
-    return arr.reduce((accum, currElem)=> accum += currElem, 0)
+// Method: 1
+
+// const sumOfDigits = (num) =>{
+//     let arr = Array.from(String(num), Number)
+//     console.log(arr)
+//     return arr.reduce((accum, currElem)=> accum += currElem, 0)
+// }
+
+// Method: 2
+
+const sumOfDigits= (num) =>{
+    let sum = 0
+    while(num>0){
+        sum += num% 10;
+        num = Math.floor(num/10)
+    }
+    return sum;
 }
 
 // Example usage:
