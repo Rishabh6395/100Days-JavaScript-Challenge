@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+    background-color: #f0f0f0;
+    height: auto;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-family: Arial, sans-serif;
+}
+
+.tabs{
+    display: flex;
+    gap:3.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 3.2rem;
+}
+
+.menu_images{
+    display: flex;
+    gap: 3.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
