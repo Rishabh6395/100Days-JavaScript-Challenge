@@ -19,10 +19,10 @@ I'm taking on this challenge to code every day for the next 100 days and share m
 
 ## Daily Progress
 
-I'll update this repo every day.
+I'll update this repo every day with new challenges and solutions.
 
+## Why I'm Doing This
 
-## Why I'm Doing This?
 - **Improve my understanding of JavaScript concepts**
 - **Build consistency in coding daily**
 - **Share knowledge with the community**
@@ -34,3 +34,18 @@ I'll update this repo every day.
    ```bash
    git clone https://github.com/yourusername/100-days-of-js.git
    cd 100-days-of-js
+   ```
+
+2. **Navigate to the day's challenge**:
+   ```bash
+   cd <day-folder>
+   ```
+
+3. **Run the code**:
+   ```bash
+   node <filename>.js
+   ```
+
+Feel free to explore, learn, and contribute!
+
+Happy Coding! 🚀
