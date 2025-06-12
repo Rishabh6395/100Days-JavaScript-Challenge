@@ -48,6 +48,6 @@ I'll update this repo every day with new challenges and solutions.
 
 Feel free to explore, learn, and contribute!
 
-Challenge Completed!!
+Challenge Completed!
 
 Happy Coding! 🚀
